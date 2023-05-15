@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script src="m2style.js"></script>
+    <style>
+        .contener {
+            margin: auto;
+            width: 50vw;
+            background-color: rgb(194, 206, 227);
+            padding: 30px;
+        }
+
+        .contener form div {
+            display: flex;
+            justify-content: space-between;
+            /* background-color: red; */
+            margin-top: 10px;
+        }
+
+        #birth {
+            width: 165px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            width: 50vw;
+            background-color: rgb(194, 206, 227);
+            padding: 30px;
+
+        }
+
+        .btn {
+            padding: 5px 10px;
+            background-color: rgb(188, 130, 242);
+            border: 1px solid black;
+            cursor: pointer;  
+            border-radius: 5px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contener">
+        <form method="post">
+            <div><span> Register Number</span>
+                <input type="number" placeholder="Register Number" id="reg_no">
+            </div>
+            <div> <span>Name</span>
+                <input type="text" placeholder="Enter Name" id="name">
+            </div>
+            <div> <span>Date OF Birth</span>
+                <input type="date" id="birth">
+            </div>
+            <div> <span>Hindi</span>
+                <input type="number" placeholder="Hindi" id="hindi">
+            </div>
+            <div> <span>English</span>
+                <input type="number" placeholder="English" id="english">
+            </div>
+            <div> <span>Math</span>
+                <input type="number" placeholder="Math" id="math">
+            </div>
+            <div> <span>Science</span>
+                <input type="number" placeholder="Science" id="science">
+            </div>
+            <div> <span>Social Science</span>
+                <input type="number" placeholder="Social Science" id="ss">
+            </div>
+            <div class="btn-box">
+                <input type="button" class="btn" value="Get result" onclick="result()">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+
+    
+</body>
+</html>
